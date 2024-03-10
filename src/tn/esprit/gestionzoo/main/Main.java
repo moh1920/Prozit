@@ -37,17 +37,15 @@ public class Main {
 
 
         System.out.println("-------------------------------------------------------");
-        Aquatic aquatic = new Aquatic("fish", "morjen", 2, true, "aaa");
+
         Tresstrial tresstrial = new Tresstrial("poila", "koko", 4, true, 2);
         Dolphin dolphin = new Dolphin("delpha", "momo", 5, true, "rr", 17.5f);
         Penguin penguin = new Penguin("ccocoo", "aaccaa", 3, true, "Orrcean", 27.3f);
 
-        System.out.println(aquatic);
         System.out.println(tresstrial);
         System.out.println(dolphin);
         System.out.println(penguin);
 
-        aquatic.swim();
         dolphin.swim();
         penguin.swim();
 
